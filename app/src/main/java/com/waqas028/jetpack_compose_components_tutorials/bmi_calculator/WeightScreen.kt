@@ -19,7 +19,9 @@ import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -68,6 +70,7 @@ fun WeightScreen(navController: NavController?) {
         Column(
             modifier = Modifier
                 .fillMaxSize()
+                .verticalScroll(rememberScrollState())
                 .drawPreviewBorder(Color.Magenta),
             horizontalAlignment = Alignment.CenterHorizontally,
             //verticalArrangement = Arrangement.SpaceBetween
@@ -177,12 +180,13 @@ private fun FadingEdgeNumberPicker(
     val lazyListState = rememberLazyListState()
     val snapBehavior = rememberSnapFlingBehavior(lazyListState = lazyListState)
 
-    val leftRightFade = Brush.verticalGradient(
+    val leftRightFade = Brush.horizontalGradient(
         0f to Color.Transparent,
-        0.4f to Color.White,
-        0.4f to Color.White,
+        0.5f to Color.White,
+        0.5f to Color.White,
         1f to Color.Transparent
     )
+
 
     LaunchedEffect(Unit) {
         lazyListState.scrollToItem(3)
