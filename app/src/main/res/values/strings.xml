@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Jetpack_Compose_Components_Tutorials</string>
+
+    <!--BMI Calculator Screen-->
+    <string name="select_gender">Select Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="transgender">Transgender</string>
+    <string name="next">Next</string>
+    <string name="select_height">Select Height</string>
+    <string name="prev">Prev</string>
+    <string name="cm">Cm</string>
+    <string name="select_weight">Select Weight</string>
+    <string name="kilogram">kilogram</string>
+</resources>
