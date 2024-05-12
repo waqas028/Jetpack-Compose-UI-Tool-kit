@@ -8,6 +8,5 @@ Embark on your journey to mastering Jetpack Compose and revolutionize your Andro
 ## 1- Tutorial
 | BMI Calculator  | Preview |
 | ------------- | ------------- |
-| <h4>Pacakge</h4> com.waqas028.jetpack_compose_components_tutorials.bmi_calculator <br><br> • Animated LazyRow <br> • Animated LazyColumn <br> • Fading Edge Number Picker <br> • Fading edge using Brush with Vertical Gradient <br> • Selected number Size is large and its color change | <img align="right" alt="GIF" src="https://github.com/waqas028/Jetpack-Compose-UI-Tool-kit/assets/96041723/ef7e54a0-0b6a-4a13-9e7c-6d7a493517ba" width="300"/> |
+| <h4>Pacakge</h4> com.waqas028.jetpack_compose_components_tutorials.bmi_calculator <br><br> • Animated LazyRow <br> • Animated LazyColumn <br> • Fading Edge Number Picker <br> • Fading edge using Brush with Vertical Gradient <br> • Selected number Size is large and its color change | <img align="right" alt="GIF" src="https://github.com/waqas028/Jetpack-Compose-UI-Tool-kit/assets/96041723/f9f3a004-658a-4b2b-ba93-f5396746993c" width="300"/> |
 |  |    |
-
